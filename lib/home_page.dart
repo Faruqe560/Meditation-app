@@ -113,8 +113,25 @@ class _HomePageState extends State<HomePage> {
                     ),
                     Column(
                       children: [
-                        FaIcon(FontAwesomeIcons.dumbbell),
-                        Text("All Exercise")
+                        FaIcon(
+                          FontAwesomeIcons.dumbbell,
+                          color: Colors.orange,
+                        ),
+                        Text(
+                          "All Exercise",
+                          style: TextStyle(
+                              color: Colors.orange,
+                              fontWeight: FontWeight.w700,
+                              fontSize: 20),
+                        ),
+                      ],
+                    ),
+                    Column(
+                      children: [
+                        Icon(
+                          Icons.settings,
+                        ),
+                        Text("Setting")
                       ],
                     ),
                   ],
