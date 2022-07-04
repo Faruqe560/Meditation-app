@@ -75,8 +75,8 @@ class _HomePageState extends State<HomePage> {
                       child: TextField(
                         decoration: InputDecoration(
                             border: InputBorder.none,
-                            labelText: "Search",
-                            labelStyle: TextStyle(fontSize: 16)),
+                            hintText: "Search",
+                            hintStyle: TextStyle(fontSize: 16)),
                       ),
                     ),
                   ],
